@@ -1,2 +1,2 @@
 # phishing-FedEx
-For authorized Phishing simulation
+For authorized Phishing simulations
